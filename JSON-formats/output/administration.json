@@ -1,0 +1,552 @@
+{
+  "data": {
+    "stats": {
+      "total_department_user_rows": 0,
+      "total_form_count": 5,
+      "total_user_count": 0,
+      "total_department_count": 3,
+      "query_offset": 0,
+      "query_limit": 5
+    },
+    "department_user_data": {
+      "1": {
+        "1": {
+          "user_attributes": {
+            "1": {
+              "attribute_id": 1,
+              "attribute_name": "Email",
+              "value": "sam@gmail.com",
+              "verified": false
+            },
+            "2": {
+              "attribute_id": 2,
+              "attribute_name": "First Name",
+              "value": "Sam",
+              "verified": false
+            },
+            "3": {
+              "attribute_id": 3,
+              "attribute_name": "Last Name",
+              "value": "Benny",
+              "verified": false
+            }
+          },
+          "user_attribute_access": {
+            "1": {
+              "attribute_id": 1,
+              "attribute_name": "Email",
+              "read_access": true,
+              "write_access": true,
+              "update_access": true,
+              "delete_access": true
+            },
+            "2": {
+              "attribute_id": 2,
+              "attribute_name": "First Name",
+              "read_access": true,
+              "write_access": true,
+              "update_access": true,
+              "delete_access": true
+            },
+            "3": {
+              "attribute_id": 3,
+              "attribute_name": "Last Name",
+              "read_access": true,
+              "write_access": true,
+              "update_access": true,
+              "delete_access": true
+            }
+          },
+          "activity_access": {
+            "1": {
+              "parent": "Client_Access",
+              "child": "Read",
+              "status": "Y"
+            },
+            "2": {
+              "parent": "Client_Access",
+              "child": "Create",
+              "status": "Y"
+            },
+            "3": {
+              "parent": "Client_Access",
+              "child": "Delete",
+              "status": "Y"
+            },
+            "4": {
+              "parent": "Client_Access",
+              "child": "client_management",
+              "status": "Y"
+            },
+            "5": {
+              "parent": "Form_Access",
+              "child": "form_create",
+              "status": "Y"
+            },
+            "6": {
+              "parent": "Form_Access",
+              "child": "form_use",
+              "status": "Y"
+            },
+            "7": {
+              "parent": "Form_Access",
+              "child": "form_management",
+              "status": "Y"
+            },
+            "8": {
+              "parent": "Lead_Access",
+              "child": "lead_create",
+              "status": "Y"
+            },
+            "9": {
+              "parent": "Lead_Access",
+              "child": "lead_delete",
+              "status": "Y"
+            },
+            "10": {
+              "parent": "Lead_Access",
+              "child": "lead_forward",
+              "status": "Y"
+            },
+            "11": {
+              "parent": "Lead_Access",
+              "child": "lead_management",
+              "status": "Y"
+            }
+          },
+          "form_access": {
+            "1": {
+              "form_name": "Fact Find Form",
+              "status": "Y"
+            },
+            "2": {
+              "form_name": "Purchaser Information Form",
+              "status": "Y"
+            },
+            "3": {
+              "form_name": "Vendor Information Form",
+              "status": "Y"
+            },
+            "4": {
+              "form_name": "Client Information Form",
+              "status": "Y"
+            },
+            "5": {
+              "form_name": "Individual Tax Return",
+              "status": "Y"
+            }
+          }
+        }
+      },
+      "2": {
+        "1": {
+          "user_attributes": {
+            "1": {
+              "attribute_id": 1,
+              "attribute_name": "Email",
+              "value": "sam@gmail.com",
+              "verified": false
+            },
+            "2": {
+              "attribute_id": 2,
+              "attribute_name": "First Name",
+              "value": "Sam",
+              "verified": false
+            },
+            "3": {
+              "attribute_id": 3,
+              "attribute_name": "Last Name",
+              "value": "Benny",
+              "verified": false
+            }
+          },
+          "user_attribute_access": {
+            "1": {
+              "attribute_id": 1,
+              "attribute_name": "Email",
+              "read_access": true,
+              "write_access": true,
+              "update_access": true,
+              "delete_access": true
+            },
+            "2": {
+              "attribute_id": 2,
+              "attribute_name": "First Name",
+              "read_access": true,
+              "write_access": true,
+              "update_access": true,
+              "delete_access": true
+            },
+            "3": {
+              "attribute_id": 3,
+              "attribute_name": "Last Name",
+              "read_access": true,
+              "write_access": true,
+              "update_access": true,
+              "delete_access": true
+            }
+          },
+          "activity_access": {
+            "1": {
+              "parent": "Client_Access",
+              "child": "Read",
+              "status": "Y"
+            },
+            "2": {
+              "parent": "Client_Access",
+              "child": "Create",
+              "status": "Y"
+            },
+            "3": {
+              "parent": "Client_Access",
+              "child": "Delete",
+              "status": "Y"
+            },
+            "4": {
+              "parent": "Client_Access",
+              "child": "client_management",
+              "status": "Y"
+            },
+            "5": {
+              "parent": "Form_Access",
+              "child": "form_create",
+              "status": "Y"
+            },
+            "6": {
+              "parent": "Form_Access",
+              "child": "form_use",
+              "status": "Y"
+            },
+            "7": {
+              "parent": "Form_Access",
+              "child": "form_management",
+              "status": "Y"
+            },
+            "8": {
+              "parent": "Lead_Access",
+              "child": "lead_create",
+              "status": "Y"
+            },
+            "9": {
+              "parent": "Lead_Access",
+              "child": "lead_delete",
+              "status": "Y"
+            },
+            "10": {
+              "parent": "Lead_Access",
+              "child": "lead_forward",
+              "status": "Y"
+            },
+            "11": {
+              "parent": "Lead_Access",
+              "child": "lead_management",
+              "status": "Y"
+            }
+          },
+          "form_access": {
+            "1": {
+              "form_name": "Fact Find Form",
+              "status": "Y"
+            },
+            "2": {
+              "form_name": "Purchaser Information Form",
+              "status": "Y"
+            },
+            "3": {
+              "form_name": "Vendor Information Form",
+              "status": "Y"
+            },
+            "4": {
+              "form_name": "Client Information Form",
+              "status": "Y"
+            },
+            "5": {
+              "form_name": "Individual Tax Return",
+              "status": "Y"
+            }
+          }
+        }
+      },
+      "3": {
+        "1": {
+          "user_attributes": {
+            "1": {
+              "attribute_id": 1,
+              "attribute_name": "Email",
+              "value": "sam@gmail.com",
+              "verified": false
+            },
+            "2": {
+              "attribute_id": 2,
+              "attribute_name": "First Name",
+              "value": "Sam",
+              "verified": false
+            },
+            "3": {
+              "attribute_id": 3,
+              "attribute_name": "Last Name",
+              "value": "Benny",
+              "verified": false
+            }
+          },
+          "user_attribute_access": {
+            "1": {
+              "attribute_id": 1,
+              "attribute_name": "Email",
+              "read_access": true,
+              "write_access": true,
+              "update_access": true,
+              "delete_access": true
+            },
+            "2": {
+              "attribute_id": 2,
+              "attribute_name": "First Name",
+              "read_access": true,
+              "write_access": true,
+              "update_access": true,
+              "delete_access": true
+            },
+            "3": {
+              "attribute_id": 3,
+              "attribute_name": "Last Name",
+              "read_access": true,
+              "write_access": true,
+              "update_access": true,
+              "delete_access": true
+            }
+          },
+          "activity_access": {
+            "1": {
+              "parent": "Client_Access",
+              "child": "Read",
+              "status": "Y"
+            },
+            "2": {
+              "parent": "Client_Access",
+              "child": "Create",
+              "status": "Y"
+            },
+            "3": {
+              "parent": "Client_Access",
+              "child": "Delete",
+              "status": "Y"
+            },
+            "4": {
+              "parent": "Client_Access",
+              "child": "client_management",
+              "status": "Y"
+            },
+            "5": {
+              "parent": "Form_Access",
+              "child": "form_create",
+              "status": "Y"
+            },
+            "6": {
+              "parent": "Form_Access",
+              "child": "form_use",
+              "status": "Y"
+            },
+            "7": {
+              "parent": "Form_Access",
+              "child": "form_management",
+              "status": "Y"
+            },
+            "8": {
+              "parent": "Lead_Access",
+              "child": "lead_create",
+              "status": "Y"
+            },
+            "9": {
+              "parent": "Lead_Access",
+              "child": "lead_delete",
+              "status": "Y"
+            },
+            "10": {
+              "parent": "Lead_Access",
+              "child": "lead_forward",
+              "status": "Y"
+            },
+            "11": {
+              "parent": "Lead_Access",
+              "child": "lead_management",
+              "status": "Y"
+            }
+          },
+          "form_access": {
+            "1": {
+              "form_name": "Fact Find Form",
+              "status": "Y"
+            },
+            "2": {
+              "form_name": "Purchaser Information Form",
+              "status": "Y"
+            },
+            "3": {
+              "form_name": "Vendor Information Form",
+              "status": "Y"
+            },
+            "4": {
+              "form_name": "Client Information Form",
+              "status": "Y"
+            },
+            "5": {
+              "form_name": "Individual Tax Return",
+              "status": "Y"
+            }
+          }
+        }
+      }
+    },
+    "form_data": {
+      "1": {
+        "form_name": "Fact Find Form",
+        "section": [],
+        "fields": []
+      },
+      "2": {
+        "form_name": "Purchaser Information Form",
+        "section": [],
+        "fields": []
+      },
+      "3": {
+        "form_name": "Vendor Information Form",
+        "section": [],
+        "fields": []
+      },
+      "4": {
+        "form_name": "Client Information Form",
+        "section": [],
+        "fields": []
+      },
+      "5": {
+        "form_name": "Individual Tax Return",
+        "section": [],
+        "fields": []
+      }
+    },
+    "user_details": {
+      "1": {
+        "1": {
+          "attribute_id": 1,
+          "attribute_name": "Email",
+          "value": "sam@gmail.com",
+          "verified": false
+        },
+        "2": {
+          "attribute_id": 2,
+          "attribute_name": "First Name",
+          "value": "Sam",
+          "verified": false
+        },
+        "3": {
+          "attribute_id": 3,
+          "attribute_name": "Last Name",
+          "value": "Benny",
+          "verified": false
+        }
+      }
+    },
+    "department_data_sharing": {
+      "1": {
+        "have_access_to": [
+          2,
+          3
+        ],
+        "given_access_to": []
+      },
+      "2": {
+        "have_access_to": [],
+        "given_access_to": [
+          1,
+          3
+        ]
+      },
+      "3": {
+        "have_access_to": [
+          2
+        ],
+        "given_access_to": [
+          1
+        ]
+      }
+    },
+    "all_data": {
+      "all_departments": {
+        "1": "Admin",
+        "2": "Finance",
+        "3": "Accounting"
+      },
+      "all_forms": {
+        "1": "Fact Find Form",
+        "2": "Purchaser Information Form",
+        "3": "Vendor Information Form",
+        "4": "Client Information Form",
+        "5": "Individual Tax Return"
+      },
+      "all_users": {},
+      "all_access_list": {
+        "1": {
+          "access_id": 1,
+          "parent": "Client_Access",
+          "child": "Read"
+        },
+        "2": {
+          "access_id": 2,
+          "parent": "Client_Access",
+          "child": "Create"
+        },
+        "3": {
+          "access_id": 3,
+          "parent": "Client_Access",
+          "child": "Delete"
+        },
+        "4": {
+          "access_id": 4,
+          "parent": "Client_Access",
+          "child": "client_management"
+        },
+        "5": {
+          "access_id": 5,
+          "parent": "Form_Access",
+          "child": "form_create"
+        },
+        "6": {
+          "access_id": 6,
+          "parent": "Form_Access",
+          "child": "form_use"
+        },
+        "7": {
+          "access_id": 7,
+          "parent": "Form_Access",
+          "child": "form_management"
+        },
+        "8": {
+          "access_id": 8,
+          "parent": "Lead_Access",
+          "child": "lead_create"
+        },
+        "9": {
+          "access_id": 9,
+          "parent": "Lead_Access",
+          "child": "lead_delete"
+        },
+        "10": {
+          "access_id": 10,
+          "parent": "Lead_Access",
+          "child": "lead_forward"
+        },
+        "11": {
+          "access_id": 11,
+          "parent": "Lead_Access",
+          "child": "lead_management"
+        }
+      }
+    }
+  },
+  "status": {
+    "status_code": 200,
+    "status_message": "success",
+    "time_taken": "0.178 sec",
+    "api_version": "1.0.0"
+  }
+}

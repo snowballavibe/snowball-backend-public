@@ -1,0 +1,52 @@
+{
+  "organization_name": "snowball_crm",
+  "user_id": 2,
+  "user_role": "user",
+  "department_id": 1,
+  "activity_access": [
+    {
+      "activity_id": 1,
+      "is_granted": true
+    },
+    {
+      "activity_id": 2,
+      "is_granted": false
+    },
+    {
+      "activity_id": 3,
+      "is_granted": false
+    },
+    {
+      "activity_id": 4,
+      "is_granted": true
+    }
+  ],
+  "form_access": [
+    {
+      "form_id": 1,
+      "is_granted": true
+    },
+    {
+      "form_id": 2,
+      "is_granted": true
+    },
+    {
+      "form_id": 3,
+      "is_granted": true
+    }
+  ],
+  "user_attributes": [
+    {
+      "attribute_id": 1,
+      "attribute_value": "json.sam@gmail.com"
+    },
+    {
+      "attribute_id": 2,
+      "attribute_value": "JSON"
+    },
+    {
+      "attribute_id": 2,
+      "attribute_value": "SAM"
+    }
+  ]
+}
