@@ -1,0 +1,11 @@
+{
+  "organization_name": "snowball_crm",
+  "department_id": 1,
+  "have_access_to": [
+    2,
+    3
+  ],
+  "given_access_to": [
+    3
+  ]
+}

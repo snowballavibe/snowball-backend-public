@@ -1,0 +1,24 @@
+{
+  "data": {
+    "department_name": "Admin",
+    "created_on": "2022-12-25T06:41:35",
+    "updated_on": "2022-12-25T06:42:27",
+    "description": "Administration Department",
+    "have_access_to": [
+      2,
+      3
+    ],
+    "given_access_to": [
+      3
+    ],
+    "all_users": [
+      "Sam Benny"
+    ]
+  },
+  "status": {
+    "status_code": 200,
+    "status_message": "OK",
+    "time_taken": "0.041 sec",
+    "api_version": "1.0.0"
+  }
+}
