@@ -127,3 +127,34 @@ Input JSON format - [dep_data_share_update.json](JSON-formats%2Finput%2Fdep_data
   ]
 }
 ```
+
+### Get department info
+
++ Endpoint - {BACKEND_IP}/departments/get_info
+
+Get the information about a department given a department id
+
+Input
+```json
+{
+  "department_id": 1,
+  "organization_name": "snowball_crm"
+}
+```
+
+Output
+```json
+{
+  "data": {
+    "department_name": "Admin",
+    "department_id": 1,
+    "department_description": "Administration Department"
+  },
+  "status": {
+    "status_code": 200,
+    "status_message": "Department found",
+    "time_taken": "0.036 sec",
+    "api_version": "1.0.0"
+  }
+}
+```
