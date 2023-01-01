@@ -50,6 +50,47 @@ Example of updating one user-attribute
   ]
 }
 ```
+Example of updating one form_access
+
+```json
+{
+  "organization_name": "snowball_crm",
+  "user_id": 2,
+  "user_role": "user",
+  "department_id": 1,
+  "activity_access": [],
+  "form_access": [
+    {
+      "form_id": 2,
+      "is_granted": true
+    }
+  ],
+  "user_attributes": []
+}
+
+
+
+```
+
+Example of updating one activity_access
+
+```json
+{
+  "organization_name": "snowball_crm",
+  "user_id": 2,
+  "user_role": "user",
+  "department_id": 1,
+  "activity_access": [
+    {
+      "activity_id": 3,
+      "is_granted": false
+    }
+  ],
+  "form_access": [],
+  "user_attributes": []
+}
+
+```
 
 ### Delete user-department row
 + Endpoint - {BACKEND_IP}/frontend/administration/delete_record
