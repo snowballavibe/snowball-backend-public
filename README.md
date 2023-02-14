@@ -92,6 +92,29 @@ Example of updating one activity_access
 
 ```
 
+Example of updating one lead_attribute_access
+
+```json
+{
+  "organization_name": "snowball_crm",
+  "user_id": 2,
+  "user_role": "user",
+  "department_id": 1,
+  "lead_attribute_access": [
+    {
+      "activity_id": 3,
+      "read_access": false,
+      "write_access": false,
+      "delete_access": false
+    }
+  ],
+  "activity_access": [],
+  "form_access": [],
+  "user_attributes": []
+}
+
+```
+
 ### Delete user-department row
 + Endpoint - {BACKEND_IP}/frontend/administration/delete_record
 
